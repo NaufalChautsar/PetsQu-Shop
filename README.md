@@ -16,5 +16,5 @@
 ### Run PHP Development Server
     - php artisan serve
 
-### If you want to modify
+### If you want to modify, i use Tailwind CSS
     - npm run watch
