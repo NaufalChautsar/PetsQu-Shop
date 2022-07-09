@@ -13,6 +13,6 @@
     - php artisan migrate
     - php artisan db:seed --class=UserSeeder
 
-### Run PHP Development Server
+### Run PHP Development Server and Tailwind CSS
     - php artisan serve
     - npm run watch
