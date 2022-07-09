@@ -90,7 +90,7 @@
                                     <td class="font-medium text-center md:py-7 md:pl-[9px] lg:pl-[5px] xl:pl-0 hide">{{ $item->jumlah_pesanan }} Item</td>
                                     <td class="font-medium text-center md:py-7 md:pl-3 xl:pl-2 hide">Rp. {{ $item->total_harga }}</td>
                                     <td class="pr-12 flex items-center">
-                                        <span class="w-20 group-hover:hidden pl-10 md:py-7 md:pl-[29px] xl:pl-6">{{ $item->tanggal->format('d-m-Y') }}</span>
+                                        <span class="w-20 group-hover:hidden pl-10 md:py-7 md:pl-[29px] xl:pl-6">{{ $item->created_at->format('d/m/Y') }}</span>
                                         <div class="hidden group-hover:flex group-hover:items-center group-hover:w-20 group-hover:gap-x-2 pl-3 md:pl-1 xl:pl-0">
                                             <button class="mx-1">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 hover:text-white hover:rounded-md hover:bg-primary p-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
