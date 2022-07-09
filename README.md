@@ -3,7 +3,7 @@
 <br></br>
 ### Prepare dependencies
     - composer install / update
-    - cn .env.example .env
+    - cp .env.example .env
 
 ### Change Database Config
     Change Database configuration in .env
@@ -15,6 +15,4 @@
 
 ### Run PHP Development Server
     - php artisan serve
-
-### If you want to modify
     - npm run watch
