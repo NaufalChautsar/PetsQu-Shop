@@ -10,7 +10,7 @@
 
 ### Generate and Migration
     - php artisan migrate
-    - php artisan db:seed --class=UserSeeder
+    - php artisan db:seed --class=AdminSeeder
 
 ### Run PHP Development Server and Tailwind CSS
     - php artisan serve
