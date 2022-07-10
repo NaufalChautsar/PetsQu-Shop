@@ -9,7 +9,6 @@
     Change Database configuration in .env
 
 ### Generate and Migration
-    - php artisan key:generate
     - php artisan migrate
     - php artisan db:seed --class=UserSeeder
 
